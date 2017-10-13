@@ -5,7 +5,7 @@
 
 const isPalindrome = function (s) {
 
-  const removeNonAlpha = s.replace(/[\W]/g, '');
+  const removeNonAlpha = s.replace(/\W/g, '');
 
   for (let i = 0; i < Math.floor(removeNonAlpha.length /2); i++) {
 
